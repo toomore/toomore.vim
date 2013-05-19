@@ -15,6 +15,8 @@ Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'othree/html5.vim'
+Bundle 'othree/html5-syntax.vim'
 " Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
 Bundle 'L9'
