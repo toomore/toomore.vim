@@ -18,6 +18,7 @@ Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 Bundle 'othree/html5.vim'
 Bundle 'othree/html5-syntax.vim'
 Bundle 'wavded/vim-stylus'
+Bundle 'jelera/vim-javascript-syntax'
 " Bundle 'jeffkreeftmeijer/vim-numbertoggle'
 Bundle 'nvie/vim-pyflakes'
 Bundle 'nvie/vim-pep8'
