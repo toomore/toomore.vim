@@ -6,6 +6,7 @@ set tabstop=4
 
 set number
 set cursorline
+set colorcolumn=81
 
 syntax on
 
