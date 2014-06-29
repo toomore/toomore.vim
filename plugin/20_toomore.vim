@@ -14,3 +14,11 @@ syntax on
 autocmd BufNewFile,BufRead *.mako setlocal filetype=mako
 autocmd FileType python setlocal foldmethod=indent nosmartindent
 autocmd BufNewFile,BufRead */nginx/* setlocal filetype=nginx 
+
+" Golang
+if exists("g:did_load_filetypes")
+    filetype off
+    filetype plugin indent off
+endif
+set runtimepath+=/usr/local/Cellar/go/1.3/bin/misc/vim
+filetype plugin indent on
