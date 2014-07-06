@@ -25,10 +25,13 @@ Bundle 'jelera/vim-javascript-syntax'
 " Bundle 'nvie/vim-flake8'
 " Bundle 'golangtw/go.vim'
 Bundle 'jnwhiteh/vim-golang'
+Plugin 'fatih/vim-go'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'Valloric/YouCompleteMe'
 " Bundle 'bling/vim-airline'
-" Bundle 'Lokaltog/powerline-fonts'
+Bundle 'Lokaltog/powerline-fonts'
 " Bundle 'Lokaltog/vim-powerline'
-" Bundle 'Lokaltog/powerline', {'rtp': 'powerline/powerline/bindings/vim/'}
+Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Bundle 'tpope/vim-rails.git'
 Bundle 'ap/vim-css-color'
 " Bundle 'Rykka/riv.vim'
