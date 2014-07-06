@@ -26,6 +26,8 @@ Bundle 'jelera/vim-javascript-syntax'
 " Bundle 'golangtw/go.vim'
 Bundle 'jnwhiteh/vim-golang'
 Plugin 'fatih/vim-go'
+Plugin 'fatih/molokai'
+Plugin 'majutsushi/tagbar'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'Valloric/YouCompleteMe'
 " Bundle 'bling/vim-airline'
