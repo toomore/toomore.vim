@@ -2,60 +2,62 @@ set nocompatible               " be iMproved
 filetype off                   " required!
 
 set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#rc()
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
-" My Bundles here:
+" My Plugins here:
 "
 " original repos on github
-Bundle 'msanders/snipmate.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'othree/html5.vim'
-Bundle 'othree/html5-syntax.vim'
-Bundle 'wavded/vim-stylus'
-Bundle 'jelera/vim-javascript-syntax'
-" Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-" Bundle 'nvie/vim-pyflakes'
-" Bundle 'nvie/vim-pep8'
-" Bundle 'nvie/vim-flake8'
-" Bundle 'golangtw/go.vim'
-" Bundle 'jnwhiteh/vim-golang'
+Plugin 'msanders/snipmate.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'othree/html5.vim'
+Plugin 'othree/html5-syntax.vim'
+Plugin 'wavded/vim-stylus'
+Plugin 'jelera/vim-javascript-syntax'
+" Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+" Plugin 'nvie/vim-pyflakes'
+" Plugin 'nvie/vim-pep8'
+" Plugin 'nvie/vim-flake8'
+" Plugin 'golangtw/go.vim'
+" Plugin 'jnwhiteh/vim-golang'
 Plugin 'fatih/vim-go'
 Plugin 'jstemmer/gotags'
 Plugin 'fatih/molokai'
+Plugin 'Shougo/neocomplete.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'nsf/gocode', {'rtp': 'vim/'}
-Plugin 'Valloric/YouCompleteMe'
-" Bundle 'bling/vim-airline'
-Bundle 'Lokaltog/powerline-fonts'
-" Bundle 'Lokaltog/vim-powerline'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Bundle 'tpope/vim-rails.git'
-Bundle 'ap/vim-css-color'
-" Bundle 'Rykka/riv.vim'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'bling/vim-airline'
+Plugin 'Lokaltog/powerline-fonts'
+" Plugin 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Plugin 'tpope/vim-rails.git'
+Plugin 'ap/vim-css-color'
+" Plugin 'Rykka/riv.vim'
 " vim-scripts repos
-Bundle 'L9'
-Bundle 'python.vim'
-Bundle 'mako.vim'
-Bundle 'nginx.vim'
-Bundle 'AutoComplPop'
-Bundle 'python_match.vim'
-" Bundle 'FuzzyFinder'
+Plugin 'L9'
+Plugin 'python.vim'
+Plugin 'mako.vim'
+Plugin 'nginx.vim'
+Plugin 'AutoComplPop'
+Plugin 'python_match.vim'
+" Plugin 'FuzzyFinder'
 " non github repos
-Bundle 'git://git.wincent.com/command-t.git'
+Plugin 'git://git.wincent.com/command-t.git'
 " ...
 
+call vundle#end()
 filetype plugin indent on     " required!
 
 " Brief help
-" :BundleList          - list configured bundles
-" :BundleInstall(!)    - install(update) bundles
-" :BundleSearch(!) foo - search(or refresh cache first) for foo
-" :BundleClean(!)      - confirm(or auto-approve) removal of unused bundles
+" :PluginList          - list configured bundles
+" :PluginInstall(!)    - install(update) bundles
+" :PluginSearch(!) foo - search(or refresh cache first) for foo
+" :PluginClean(!)      - confirm(or auto-approve) removal of unused bundles
 " see :h vundle for more details or wiki for FAQ
-" NOTE: comments after Bundle command are not allowed..
+" NOTE: comments after Plugin command are not allowed..
