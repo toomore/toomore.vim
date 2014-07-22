@@ -14,3 +14,5 @@ syntax on
 autocmd BufNewFile,BufRead *.mako setlocal filetype=mako
 autocmd FileType python setlocal foldmethod=indent nosmartindent
 autocmd BufNewFile,BufRead */nginx/* setlocal filetype=nginx 
+
+let python_highlight_all = 1

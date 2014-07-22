@@ -11,6 +11,8 @@ Plugin 'gmarik/Vundle.vim'
 " My Plugins here:
 "
 " original repos on github
+Plugin 'hdima/python-syntax'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'msanders/snipmate.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion'
@@ -41,7 +43,7 @@ Plugin 'ap/vim-css-color'
 " Plugin 'Rykka/riv.vim'
 " vim-scripts repos
 Plugin 'L9'
-Plugin 'python.vim'
+" Plugin 'python.vim'
 Plugin 'mako.vim'
 Plugin 'nginx.vim'
 Plugin 'AutoComplPop'

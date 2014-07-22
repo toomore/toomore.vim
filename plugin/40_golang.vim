@@ -7,6 +7,8 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:go_disable_autoinstall = 1
 
+au BufRead,BufNewFile *.go set filetype=go
+
 let g:tagbar_type_go = {  
     \ 'ctagstype' : 'go',
     \ 'kinds'     : [
