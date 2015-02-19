@@ -20,8 +20,6 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-export CLICOLOR=1
-
 # some more ls aliases
 alias ll='ls -alFh'
 alias la='ls -A'
