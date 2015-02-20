@@ -33,6 +33,9 @@ Plugin 'nginx.vim'
 Plugin 'AutoComplPop'
 Plugin 'python_match.vim'
 
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/syntastic'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
