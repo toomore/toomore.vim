@@ -8,6 +8,8 @@ set number
 set cursorline
 set colorcolumn=81
 
+set t_Co=256
+
 syntax on
 
 " specific file type
