@@ -1,4 +1,5 @@
 #!/bin/bash
 cp ~/.vim/toomore.vim/vimrc.ubuntu ~/.vimrc
 vim +PluginInstall +qall
-cp ~/.vim/toomore.vim/plugin/ ~/.vim/plugin/
+cp -r ~/.vim/toomore.vim/plugin ~/.vim/
+curl https://raw.githubusercontent.com/fatih/molokai/master/colors/molokai.vim --create-dirs -o ~/.vim/colors/molokai_toomore.vim
