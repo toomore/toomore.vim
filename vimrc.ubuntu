@@ -32,6 +32,7 @@ Plugin 'mako.vim'
 Plugin 'nginx.vim'
 Plugin 'AutoComplPop'
 Plugin 'python_match.vim'
+Plugin 'chase/vim-ansible-yaml'
 
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
