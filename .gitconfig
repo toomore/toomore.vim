@@ -1,0 +1,14 @@
+[user]
+	name = Toomore Chiang
+	email = toomore0929@gmail.com
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	log = auto
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    nfmerge = merge --no-ff
+[core]
+	editor = vim
