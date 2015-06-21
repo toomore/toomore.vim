@@ -20,28 +20,28 @@ Plugin 'L9'
 Plugin 'git://git.wincent.com/command-t.git'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
-Plugin 'fatih/vim-go'
-Plugin 'jstemmer/gotags'
-Plugin 'fatih/molokai'
-Plugin 'Shougo/neocomplete.vim'
-Plugin 'majutsushi/tagbar'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'ap/vim-css-color'
+Plugin 'bling/vim-airline'
+Plugin 'chase/vim-ansible-yaml'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'fatih/molokai'
+Plugin 'fatih/vim-go'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'jstemmer/gotags'
 Plugin 'lepture/vim-jinja'
-Plugin 'othree/html5.vim'
+Plugin 'majutsushi/tagbar'
 Plugin 'othree/html5-syntax.vim'
+Plugin 'othree/html5.vim'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/syntastic'
 Plugin 'wavded/vim-stylus'
-Plugin 'jelera/vim-javascript-syntax'
-Plugin 'ap/vim-css-color'
-Plugin 'python.vim'
+Plugin 'AutoComplPop'
 Plugin 'mako.vim'
 Plugin 'nginx.vim'
-Plugin 'AutoComplPop'
+Plugin 'python.vim'
 Plugin 'python_match.vim'
-Plugin 'chase/vim-ansible-yaml'
-
-Plugin 'bling/vim-airline'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
