@@ -91,3 +91,6 @@ function git_since_last_commit {
 }
 
 export PS1='\[\033[01;34m\]\t\[\033[00m\] \# \[\033[01;32m\]\u@\h\[\033[01;34m\] \w\n\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] $(git_since_last_commit)\[\033[0m\]\$\[\033[00m\] '
+
+export EDITOR=vim
+export VISUAL=vim
