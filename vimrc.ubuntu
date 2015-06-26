@@ -34,7 +34,6 @@ Plugin 'lepture/vim-jinja'
 Plugin 'majutsushi/tagbar'
 Plugin 'othree/html5-syntax.vim'
 Plugin 'othree/html5.vim'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'scrooloose/syntastic'
 Plugin 'wavded/vim-stylus'
 Plugin 'AutoComplPop'
