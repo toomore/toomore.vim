@@ -26,7 +26,6 @@ git clone --depth 1 https://github.com/vim-scripts/mako.vim.git
 git clone --depth 1 https://github.com/vim-scripts/nginx.vim.git
 git clone --depth 1 https://github.com/vim-scripts/python.vim.git
 git clone --depth 1 https://github.com/vim-scripts/python_match.vim.git
-git clone --depth 1 git://git.wincent.com/command-t.git
 vim +PluginInstall +qall
 vim +GoInstallBinaries +qall
 cp -r ~/.vim/toomore.vim/plugin ~/.vim/
