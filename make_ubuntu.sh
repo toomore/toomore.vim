@@ -4,7 +4,6 @@ mkdir -p ~/.vim/bundle
 cd  ~/.vim/bundle
 git clone --depth 1 https://github.com/gmarik/Vundle.vim.git
 git clone --depth 1 https://github.com/tpope/vim-fugitive.git
-git clone --depth 1 https://github.com/L9.git
 git clone --depth 1 https://github.com/Lokaltog/vim-easymotion.git
 git clone --depth 1 https://github.com/Shougo/neocomplete.vim.git
 git clone --depth 1 https://github.com/ap/vim-css-color.git
@@ -21,6 +20,7 @@ git clone --depth 1 https://github.com/othree/html5-syntax.vim.git
 git clone --depth 1 https://github.com/othree/html5.vim.git
 git clone --depth 1 https://github.com/scrooloose/syntastic.git
 git clone --depth 1 https://github.com/wavded/vim-stylus.git
+git clone --depth 1 https://github.com/vim-scripts/L9.git
 git clone --depth 1 https://github.com/vim-scripts/AutoComplPop.git
 git clone --depth 1 https://github.com/vim-scripts/mako.vim.git
 git clone --depth 1 https://github.com/vim-scripts/nginx.vim.git
