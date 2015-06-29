@@ -7,6 +7,20 @@ let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:go_disable_autoinstall = 1
 
+" Enable snipMate compatibility feature.
+let g:neosnippet#enable_snipmate_compatibility = 1
+" Tell Neosnippet about the other snippets
+let g:neosnippet#snippets_directory='~/.vim/bundle/neosnippet-snippets/neosnippets'
+
+" vim-go
+let g:go_disable_autoinstall = 1
+let g:go_fmt_command = "goimports"
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+
 au BufRead,BufNewFile *.go set filetype=go
 
 let g:tagbar_type_go = {  
@@ -46,3 +60,9 @@ let g:go_errcheck_bin="/Users/toomore/.vim-go/errcheck"
 
 nmap <F8> :TagbarToggle<CR>
 colorscheme molokai_toomore
+
+au FileType go nmap <Leader>i <Plug>(go-info)
+au FileType go nmap <leader>r <Plug>(go-run)
+au FileType go nmap <leader>b <Plug>(go-build)
+au FileType go nmap <leader>t <Plug>(go-test)
+au FileType go nmap <leader>c <Plug>(go-coverage)
