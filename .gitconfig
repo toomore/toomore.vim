@@ -1,6 +1,7 @@
 [user]
 	name = Toomore Chiang
 	email = toomore0929@gmail.com
+	signingkey = 8AFC3169
 [color]
 	ui = true
 	diff = auto
@@ -12,3 +13,5 @@
     nfmerge = merge --no-ff
 [core]
 	editor = vim
+[commit]
+	gpgsign = true
