@@ -1,17 +1,23 @@
 [user]
-	name = Toomore Chiang
-	email = toomore0929@gmail.com
-	signingkey = 8AFC3169
+    name = Toomore Chiang
+    email = toomore0929@gmail.com
+    signingkey = 9F20848EFC753FC4!
+    #signingkey = 8AFC3169
 [color]
-	ui = true
-	diff = auto
-	status = auto
-	branch = auto
-	log = auto
+    ui = true
+    diff = auto
+    status = auto
+    branch = auto
+    log = auto
 [alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     nfmerge = merge --no-ff
 [core]
-	editor = vim
+    editor = vim
+    excludesfile = /Users/toomore/.gitignore
 [commit]
-	gpgsign = true
+    gpgsign = true
+[gpg]
+    #program = /usr/local/bin/gpg2
+    #program = /usr/local/MacGPG2/bin/gpg2
+    program = gpg
