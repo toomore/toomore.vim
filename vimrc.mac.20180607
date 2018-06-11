@@ -1,62 +1,29 @@
-set nocompatible               " be iMproved
-filetype off                   " required!
-
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
 call plug#begin('~/.vim/plugged')
 
-" let Vundle manage Vundle
-" required! 
-Plug 'gmarik/Vundle.vim'
-
-" My Plugs here:
-"
-" original repos on github
-Plug 'hdima/python-syntax'
-Plug 'davidhalter/jedi-vim'
-Plug 'msanders/snipmate.vim'
-Plug 'tpope/vim-fugitive'
+Plug 'Lokaltog/powerline-fonts'
 Plug 'Lokaltog/vim-easymotion'
-Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plug 'othree/html5.vim'
-Plug 'othree/html5-syntax.vim'
-Plug 'wavded/vim-stylus'
-Plug 'jelera/vim-javascript-syntax'
-" Plug 'jeffkreeftmeijer/vim-numbertoggle'
-" Plug 'nvie/vim-pyflakes'
-" Plug 'nvie/vim-pep8'
-" Plug 'nvie/vim-flake8'
-" Plug 'golangtw/go.vim'
-" Plug 'jnwhiteh/vim-golang'
-" Plug 'fatih/vim-go'
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'jstemmer/gotags'
-Plug 'fatih/molokai'
 Plug 'Shougo/neocomplete.vim'
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
-Plug 'majutsushi/tagbar'
-Plug 'nsf/gocode', {'rtp': 'vim/'}
-Plug 'guns/xterm-color-table.vim'
-" Plug 'Valloric/YouCompleteMe'
-" Plug 'bling/vim-airline'
-Plug 'Lokaltog/powerline-fonts'
-" Plug 'Lokaltog/vim-powerline'
-" Plug 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-" Plug 'tpope/vim-rails.git'
 Plug 'ap/vim-css-color'
-" Plug 'Rykka/riv.vim'
-" vim-scripts repos
-" Plug 'L9'
-" Plug 'python.vim'
-" Plug 'mako.vim'
-" Plug 'nginx.vim'
-" Plug 'AutoComplPop'
-" Plug 'python_match.vim'
-" Plug 'FuzzyFinder'
-" non github repos
-Plug 'git://git.wincent.com/command-t.git'
+Plug 'davidhalter/jedi-vim'
+Plug 'fatih/molokai'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'guns/xterm-color-table.vim'
+Plug 'hdima/python-syntax'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'jstemmer/gotags'
+Plug 'majutsushi/tagbar'
+Plug 'msanders/snipmate.vim'
+Plug 'nsf/gocode', {'rtp': 'vim/'}
+Plug 'othree/html5-syntax.vim'
+Plug 'othree/html5.vim'
+Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plug 'tpope/vim-fugitive'
+Plug 'wavded/vim-stylus'
 
 Plug 'bling/vim-airline'
 Plug 'scrooloose/syntastic'

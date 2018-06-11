@@ -1,5 +1,5 @@
 toomore.vim
 =============================
 
-Using `Vundle <https://github.com/gmarik/vundle>`_.
+Using `vim-plug <https://github.com/junegunn/vim-plug>`_.
 
