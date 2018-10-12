@@ -63,8 +63,6 @@ set -g visual-activity on
 
 # Vi copypaste mode
 set-window-option -g mode-keys vi
-bind-key -t vi-copy 'v' begin-selection
-bind-key -t vi-copy 'y' copy-selection
 
 # hjkl pane traversal
 bind h select-pane -L
@@ -77,9 +75,6 @@ bind r source-file ~/.tmux.conf \; display-message "Config reloaded..."
 
 # auto window rename
 set-window-option -g automatic-rename
-
-# rm mouse mode fail
-set -g mode-mouse off
 
 # color
 set -g default-terminal "screen-256color"
