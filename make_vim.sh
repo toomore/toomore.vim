@@ -1,5 +1,5 @@
 #!/bin/bash
-VIMVER="8.1.0788"
+VIMVER="8.2.0086"
 
 apt-get update && apt-get dist-upgrade -y && \
 apt-get install -y git curl gcc tmux \
@@ -13,6 +13,9 @@ cd ./vim-${VIMVER}/
 
 ./configure --with-features=huge --enable-luainterp --enable-multibyte \
             --with-tlib=ncurses --enable-cscope                        \
+            --enable-pythoninterp=yes                                  \
+            --enable-python3interp=yes                                 \
+            --with-python3-command=/usr/bin/python3                    \
             --enable-gui=no --without-x --prefix=/usr               && \
-make VIMRUNTIMEDIR=/usr/share/vim/vim8                              && \
+make VIMRUNTIMEDIR=/usr/share/vim/vim82                             && \
 make install
