@@ -2,7 +2,7 @@
 VIMVER="8.2.0836"
 
 apt-get update && apt-get dist-upgrade -y && \
-apt-get install -y git curl gcc tmux \
+apt-get install -y git curl gcc tmux python3-dev \
                    make ncurses-dev libtolua-dev exuberant-ctags     && \
     ln -s /usr/include/lua5.2/ /usr/include/lua                      && \
     ln -s /usr/lib/x86_64-linux-gnu/liblua5.2.so /usr/lib/liblua.so  && \
