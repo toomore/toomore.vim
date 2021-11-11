@@ -13,7 +13,7 @@ syntax on
 " specific file type
 autocmd BufNewFile,BufRead *.mako setlocal filetype=mako
 autocmd FileType python setlocal foldmethod=indent nosmartindent
-autocmd BufNewFile,BufRead */nginx/* setlocal filetype=nginx 
+autocmd BufNewFile,BufRead */nginx/* setlocal filetype=nginx
 
 let python_highlight_all = 1
 
@@ -48,11 +48,11 @@ let g:airline_symbols.whitespace = 'Ξ'
 
 
 " scrooloose/syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+"
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0

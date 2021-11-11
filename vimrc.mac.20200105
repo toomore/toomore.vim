@@ -14,7 +14,10 @@ Plug 'hdima/python-syntax'
 Plug 'jstemmer/gotags'
 Plug 'majutsushi/tagbar'
 Plug 'mdempsky/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
+Plug 'dense-analysis/ale'
+Plug 'fisadev/vim-isort'
+Plug 'tell-k/vim-autopep8'
 
 " ----- More ----- "
 " Plug 'ap/vim-css-color'
