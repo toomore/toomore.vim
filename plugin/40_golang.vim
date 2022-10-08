@@ -1,7 +1,7 @@
 " Golang
-syntax enable  
+syntax enable
 filetype plugin on
-set number  
+set number
 let g:acp_enableAtStartup = 0
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
@@ -15,9 +15,9 @@ let g:neosnippet#enable_snipmate_compatibility = 1
 " set statusline+=%{SyntasticStatuslineFlag()}
 " set statusline+=%*
 
-let g:syntastic_aggregate_errors = 1
-let g:syntastic_go_checkers = ['go', 'golint', 'govet', 'errcheck']
-let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
+" let g:syntastic_aggregate_errors = 1
+" let g:syntastic_go_checkers = ['go', 'golint', 'govet', 'errcheck']
+" let g:syntastic_mode_map = { 'mode': 'active', 'passive_filetypes': ['go'] }
 
 " vim-go
 let g:go_auto_type_info = 1

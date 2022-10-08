@@ -17,6 +17,6 @@ let g:ale_lint_on_save = 1
 
 " let b:ale_linters = ['flake8', 'pylint']
 " let b:ale_fixers = ['autopep8', 'yapf']
-let g:ale_linters = {'python': ['pylint'], 'html': [], '*': []}
-let g:ale_fixers = {'python': ['autopep8', 'black', 'isort'], 'html': [], '*': ['remove_trailing_lines', 'trim_whitespace']}
+let g:ale_linters = {'python': ['pylint', 'mypy'], 'html': [], '*': []}
+let g:ale_fixers = {'python': ['autopep8', 'isort'], 'html': [], '*': ['remove_trailing_lines', 'trim_whitespace']}
 let g:ale_python_autopep8_options = '--verbose'
